@@ -15,6 +15,7 @@ function inject(onInject) {
   document.head.appendChild(el);
 }
 inject(function($) {
-	
+	 $('.matrix-table select').val('YES');
+	$('.matrix-table textarea').val('Ok')
 })
 })()
