@@ -15,6 +15,6 @@ function inject(onInject) {
   document.head.appendChild(el);
 }
 inject(function($) {
-	$('#exampleFormControlSelect1').val('2')
+	
 })
 })()
