@@ -16,6 +16,6 @@ function inject(onInject) {
 }
 inject(function($) {
 	 $('.matrix-table select').val('YES');
-	$('.matrix-table textarea').val('Ok')
+	$('.matrix-table textarea').val('Ok');
 })
 })()
